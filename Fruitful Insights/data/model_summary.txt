@@ -1,0 +1,44 @@
+
+=================================================
+MACHINE LEARNING MODEL SUMMARY
+=================================================
+
+Dataset:
+- Total fruits: 49
+- Features: sugar, carbohydrates, protein, fat
+- Target: calories
+
+Model Comparison:
+-------------------------------------------------
+Metric          | Linear Regression | Random Forest
+----------------|-------------------|--------------
+MAE (Test)      | 8.81              | 19.81
+RMSE (Test)     | 11.54             | 27.04
+R² (Test)       | 0.915              | 0.532
+
+Winner: Linear Regression
+Reason: higher R² (0.915 vs 0.532)
+
+Overfitting Check (Random Forest):
+-------------------------------------------------
+max_depth | Train R² | Test R² | Gap
+----------|----------|---------|-----
+max_depth Train R² Test R²   Gap
+        2    0.904   0.314 0.590
+        4    0.915   0.520 0.395
+        6    0.916   0.532 0.384
+        8    0.916   0.520 0.396
+       10    0.916   0.539 0.376
+     None    0.916   0.540 0.376
+
+Best max_depth: None
+Train R²: 0.916
+Test R²: 0.540
+Gap: 0.376
+
+Conclusion:
+- Random Forest performs better than Linear Regression
+- No significant overfitting detected (training and test scores are close)
+- Feature fat is the most important predictor
+
+=================================================

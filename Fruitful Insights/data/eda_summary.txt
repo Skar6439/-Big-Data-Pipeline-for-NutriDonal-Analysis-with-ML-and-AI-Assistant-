@@ -1,0 +1,21 @@
+
+Data Overview:
+- Total fruits in dataset: 49
+- Number of distinct fruit families: 26
+- Most common family: Rosaceae (11 fruits)
+
+Key Nutritional Insights:
+1. Calories range from 15.0 to 628.0 kcal per 100g
+2. Average calories: 68.5 kcal
+3. Sugar content varies from 0.0 to 19.1g per 100g
+4. Highest calorie fruit: Hazelnut (628.0 kcal)
+5. Lowest calorie fruit: Apricot (15.0 kcal)
+
+Key Relationships (Observation):
+- From the scatter plots, we can see that sugar and carbohydrates have the strongest positive relationship with calories
+- Fruits with higher sugar content tend to have more calories
+- Protein and fat show weaker relationships with calories
+
+Family Insights:
+- Betulaceae family has the highest average calories (628.0 kcal)
+- The most diverse family is Rosaceae with 11 different fruits
